@@ -15,6 +15,11 @@ export const Image = styled.Image`
     margin-top:10%;
     margin-bottom: 5%;
 `;
+export const Icon = styled.Image`
+    width: 16px;
+    height:16px;
+    padding-right: 5px;
+`;
 
 export const Label = styled.Text`
     font-family: Poppins_300Light;
@@ -31,7 +36,7 @@ export const LogWith = styled.Text`
     line-height: 26px;  
     color: #1D293F;
     padding-left:5px;
-    padding-bottom:10px;
+    padding-bottom:5%;
     padding-top:15%;
     text-align: center;
 `;
@@ -47,6 +52,19 @@ export const ButtonText = styled.Text`
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    font-family: Poppins_500Medium;
+    padding-top:16px;
+`;
+
+export const ButtonGoogle = styled.TouchableOpacity`
+    width:100%;
+    height: 55px;
+    border-radius: 8px;
+`;
+export const ButtonTextGoogle = styled.Text`
+    line-height: 26px;
+    text-align: center;
+    color: #1D293F;
     font-family: Poppins_500Medium;
     padding-top:16px;
 `;
