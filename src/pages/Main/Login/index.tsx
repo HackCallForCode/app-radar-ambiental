@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigation } from '@react-navigation/native';
 
 import { Container,Image,Icon,Label,LogWith,Button,ButtonText,ButtonGoogle,ButtonTextGoogle, ButtonFacebook,ButtonTextFacebook,ViewRegister,LinkRegister } from './styles';
 
@@ -10,7 +11,15 @@ const facebook = require('../../../assets/icons/facebook_icon.png');
 import Input from '../../../components/input/text';
 import Password from '../../../components/input/password'
 
+
 export default function Login(){
+
+    const navigation = useNavigation();
+
+    function handleNavigateToRegister(){
+      navigation.navigate('Register');
+    }
+
     return (
         <Container>
             <Image source={logo}/>
@@ -31,8 +40,8 @@ export default function Login(){
                     <Icon source={facebook}/>  Continuar com Facebook
                 </ButtonTextFacebook>
             </ButtonFacebook>
-            <ViewRegister>
-                <Label>Novo?</Label>
+            <ViewRegister onPress={handleNavigateToRegister}>
+                <Label>Novo ? </Label>
                 <LinkRegister>Crie uma conta agora</LinkRegister>
             </ViewRegister>
         </Container>

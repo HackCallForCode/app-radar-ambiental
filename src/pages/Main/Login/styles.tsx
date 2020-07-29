@@ -6,7 +6,7 @@ export const Container = styled.View`
     padding-left: 5%;
     padding-bottom: 5%;
     background-color: #FFF;
-`
+`;
 
 export const Image = styled.Image`
     width: 200px;
