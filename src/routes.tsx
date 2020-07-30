@@ -7,6 +7,8 @@ import Register from './pages/Main/Register';
 import Sucess from './pages/Main/VerificationCode/Sucess';
 import Actived from './pages/Main/VerificationCode/Actived';
 
+import Home from './pages/Home';
+
 const AppStack =  createStackNavigator();
 
 const Routes = () => {
@@ -24,6 +26,8 @@ const Routes = () => {
                 <AppStack.Screen name="Register" component={Register} />
                 <AppStack.Screen name="Sucess" component={Sucess} />
                 <AppStack.Screen name="Actived" component={Actived} />
+
+                <AppStack.Screen name="Home" component={Home} />
             </AppStack.Navigator>
         </NavigationContainer>
     )

@@ -20,13 +20,18 @@ export default function Login(){
       navigation.navigate('Actived');
     }
 
+    function handleNavigateToHome(){
+        navigation.navigate('Home');
+      }
+  
+
     return (
         <Container>
             <Image source={logo}/>
             <Input placeholder={'E-mail'}/>
             <Password placeholder={'Senha'}/>
             <Label>Esqueceu sua senha ?</Label>
-            <Button>
+            <Button onPress={handleNavigateToHome}>
                 <ButtonText>Login</ButtonText>
             </Button>
             <LogWith>Entre com</LogWith>
