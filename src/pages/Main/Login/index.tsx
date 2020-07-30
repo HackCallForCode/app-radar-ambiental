@@ -17,7 +17,7 @@ export default function Login(){
     const navigation = useNavigation();
 
     function handleNavigateToRegister(){
-      navigation.navigate('Sucess');
+      navigation.navigate('Actived');
     }
 
     return (
