@@ -94,6 +94,6 @@ export const LinkRegister = styled.Text`
     font-size: 16px;
     line-height: 26px;
     position:absolute;
-    padding-top:16px;
+    padding-top:18px;
     padding-left:55px;
 `;

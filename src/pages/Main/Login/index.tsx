@@ -17,7 +17,7 @@ export default function Login(){
     const navigation = useNavigation();
 
     function handleNavigateToRegister(){
-      navigation.navigate('Register');
+      navigation.navigate('Sucess');
     }
 
     return (
@@ -42,7 +42,7 @@ export default function Login(){
             </ButtonFacebook>
             <ViewRegister onPress={handleNavigateToRegister}>
                 <Label>Novo ? </Label>
-                <LinkRegister>Crie uma conta agora</LinkRegister>
+                <LinkRegister> Crie uma conta agora</LinkRegister>
             </ViewRegister>
         </Container>
 

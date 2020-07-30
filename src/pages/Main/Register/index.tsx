@@ -9,11 +9,12 @@ import Password from '../../../components/input/password';
 import Checkbox from '../../../components/checkbox';
 
 const logo = require('../../../assets/icons/logo_icon.png');
+
 export default function Register(){
     const navigation = useNavigation();
 
     function handleNavigateToLogin(){
-        navigation.navigate('Register');
+        navigation.navigate('Login');
     }
 
     return(
@@ -33,7 +34,7 @@ export default function Register(){
             <Button>
                 <ButtonText>Cadastrar</ButtonText>
             </Button>
-            <ViewRegister >
+            <ViewRegister onPress={handleNavigateToLogin}>
                 <Label>Já possui conta ? </Label>
                 <LinkRegister>Clique aqui</LinkRegister>
             </ViewRegister>
