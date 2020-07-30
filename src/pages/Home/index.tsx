@@ -10,7 +10,7 @@ export default function Home(){
         <View>
             <Container>
                 <Text>
-                    Teste
+                    Home
                 </Text>
             </Container>
             <MenuBar selected={'Home'} />
