@@ -14,4 +14,5 @@ export const Title = styled.Text`
     font-size: 25px;
     line-height: 30px;
     color: #16807E;
+    padding-bottom: 10px;
 `;

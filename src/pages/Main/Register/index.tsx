@@ -6,7 +6,7 @@ import { Container,Head,Label,Title,Icon,Button,ButtonText,ViewRegister,LinkRegi
 //importação de components
 import Input from '../../../components/input/text';
 import Password from '../../../components/input/password';
-import Checkbox from '../../../components/checkbox';
+import Checkbox from '../../../components/input/checkbox';
 
 const logo = require('../../../assets/icons/logo_icon.png');
 
