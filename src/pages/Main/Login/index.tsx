@@ -22,7 +22,7 @@ export default function Login(){
 
     function handleNavigateToHome(){
         navigation.navigate('Home');
-      }
+    }
   
 
     return (

@@ -2,6 +2,7 @@ import React from 'react';
 import { Icon } from 'react-native-elements';
 
 import { Container,Button,LogoAsIcon } from './style';
+import { useNavigation } from '@react-navigation/native';
 
 const logo = require('../../../assets/icons/logo_icon.png');
 
@@ -10,8 +11,16 @@ interface props {
 }
 export default function MenuBar(props: props){
 
+    const navigation = useNavigation();
+
     const color = 'background: rgba(37, 152, 139, 0.22)';
     const { selected } = props;
+
+    function handleNavigateToAccount(){
+        navigation.navigate('Profile');
+    }
+  
+
     return(
         <Container>
             <Button
@@ -58,6 +67,7 @@ export default function MenuBar(props: props){
                     style={selected === 'Account' ? {
                         backgroundColor : color
                     }: null}
+                    onPress={handleNavigateToAccount}
             >
                 <Icon
                     name='user-o'
