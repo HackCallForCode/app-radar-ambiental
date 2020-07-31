@@ -29,3 +29,14 @@ export const TextLight = styled.Text`
 export const Row = styled.View`
     flex-direction: row;    
 `;
+
+export const ButtonMore = styled.TouchableOpacity`
+    padding-left: 60%;   
+`;
+
+export const ButtonMoreText = styled.Text`
+    line-height: 26px;
+    color: #16807E;
+    font-family: Poppins_500Medium;
+    padding-top:16px;
+`;

@@ -8,7 +8,7 @@ import Header from '../../../components/layout/header';
 import Report from '../../../components/layout/ListReport';
 
 
-export default function Details(){
+export default function History(){
     return(
         <View>
             <Header/>

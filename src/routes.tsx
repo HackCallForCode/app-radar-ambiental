@@ -12,7 +12,7 @@ import Profile from './pages/Profile';
 
 import History from './pages/Report/History';
 // import New from './pages/Report/New';
-// import Details from './pages/Report/Details';
+import Details from './pages/Report/Details';
 
 const AppStack =  createStackNavigator();
 
@@ -36,6 +36,8 @@ const Routes = () => {
                 <AppStack.Screen name="Profile" component={Profile} />
 
                 <AppStack.Screen name="History" component={History} />
+                <AppStack.Screen name="Details" component={Details} />
+
 
             </AppStack.Navigator>
         </NavigationContainer>
