@@ -20,6 +20,13 @@ export default function MenuBar(props: props){
         navigation.navigate('Profile');
     }
   
+    function handleNavigateToHome(){
+        navigation.navigate('Home');
+    }
+
+    function handleNavigateToReportHistory(){
+        navigation.navigate('History');
+    }
 
     return(
         <Container>
@@ -27,6 +34,7 @@ export default function MenuBar(props: props){
                 style={selected === 'Home' ? {
                     backgroundColor : color
                 }: null}
+                onPress={handleNavigateToHome}
             >
                 <Icon
                     name='home'
@@ -56,6 +64,7 @@ export default function MenuBar(props: props){
                     style={selected === 'List' ? {
                         backgroundColor : color
                     }: null}
+                    onPress={handleNavigateToReportHistory}
             >
                 <Icon
                     name='list'

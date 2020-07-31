@@ -975,6 +975,11 @@
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/fahkwang/-/fahkwang-0.1.0.tgz#879cf6c4cb6bb233b8512f86da6dda415eeb6ca5"
   integrity sha512-ipg/STlYAE8wZUjcQw77Tkc2T3CcEpBANxpX5PrLzjia8jTSdP1q0vFwcPtihI48KCwlW9Eu7ibEBezUEwtMVw==
 
+"@expo-google-fonts/fredoka-one@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/fredoka-one/-/fredoka-one-0.1.0.tgz#533d527fec72aded081c9818f5b0580596a4aac4"
+  integrity sha512-sgENru16BMD8qnmYMc+eRAT9B8wj84ceFX4LvlCy+EcUwra+QsWiF8VoSALW3Cg+0cH1tCg/1rHkka7wj9G7/g==
+
 "@expo-google-fonts/poppins@^0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/poppins/-/poppins-0.1.0.tgz#aae4df9e80d68ec9dc6764e57dc931f1f64016cd"

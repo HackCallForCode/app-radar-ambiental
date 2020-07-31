@@ -10,6 +10,10 @@ import Actived from './pages/Main/VerificationCode/Actived';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 
+import History from './pages/Report/History';
+// import New from './pages/Report/New';
+// import Details from './pages/Report/Details';
+
 const AppStack =  createStackNavigator();
 
 const Routes = () => {
@@ -31,6 +35,7 @@ const Routes = () => {
                 <AppStack.Screen name="Home" component={Home} />
                 <AppStack.Screen name="Profile" component={Profile} />
 
+                <AppStack.Screen name="History" component={History} />
 
             </AppStack.Navigator>
         </NavigationContainer>
