@@ -28,16 +28,7 @@ export default function PassInput(props : props){
     return(
         <View>
             <Input placeholder={placeholder} placeholderTextColor={"#9097A5"} secureTextEntry={true}/>
-                <Icon
-                    name='eye-slash'
-                    type='font-awesome'
-                    color='#9097A5'
-                    style={{
-                        marginLeft: '80%',
-                        height: 55,
-                        paddingTop:15
-                    }}
-                />
+
         </View>
     );
 }

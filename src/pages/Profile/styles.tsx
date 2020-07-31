@@ -9,7 +9,7 @@ export const Container = styled.View`
     height: 100%;
 `;
 
-export const Item = styled.View`
+export const Item = styled.TouchableOpacity`
     border-bottom-width: 1;
     border-color: #9D9090;
     padding-right: 10px;

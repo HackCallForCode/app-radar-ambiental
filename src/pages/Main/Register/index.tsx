@@ -17,6 +17,9 @@ export default function Register(){
         navigation.navigate('Login');
     }
 
+    function handleNavigateToSucess(){
+        navigation.navigate('Sucess');
+    }
     return(
         <Container>
             <Head>
@@ -31,7 +34,7 @@ export default function Register(){
             <Input placeholder={'Data de nascimento'}/>
             <Password  placeholder={'Senha'}/>
             <Checkbox label={'Aceitar Termos'} state={true} />
-            <Button>
+            <Button onPress={handleNavigateToSucess}>
                 <ButtonText>Cadastrar</ButtonText>
             </Button>
             <ViewRegister onPress={handleNavigateToLogin}>
