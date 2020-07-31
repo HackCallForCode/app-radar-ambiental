@@ -13,7 +13,9 @@ $ npm start ou yarn start
 
 ```
 Irá abrir uma aba no seu navegador com um QRCode. 
+<br>
 Para executar no seu dispotivo basta realizar o download do Expo : [https://play.google.com/store/apps/details?id=host.exp.exponent]
+<br>
 Ou rodar no emulador.
 
 ### Documentação:
